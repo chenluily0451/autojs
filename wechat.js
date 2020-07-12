@@ -1,0 +1,11 @@
+launchApp('微信');
+sleep(2000);
+click(864,122);
+sleep(3000);
+setText("小包子");
+sleep(4000);
+click(43,359);
+sleep(2000);
+click(130,2024);
+setText("我想你了");
+id("anv").findOne().click();
